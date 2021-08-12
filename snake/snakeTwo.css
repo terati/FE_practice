@@ -1,0 +1,19 @@
+:root {
+    --sized: 40px;
+}
+body {
+    height: 100%;
+    background-color: grey;
+    margin: 0;
+}
+
+#hTitle {
+    text-align: center;
+}
+
+#game {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
