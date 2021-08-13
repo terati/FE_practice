@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="form.css"> 
+</head>
+
+<body>
+    <h1 id='head1'> SURVEY FORM </h1>
+    <p id='quote'>  We are looking forward for your feedback!</p>
+    <div id='formContainer'>
+        <form id='form'>
+            <div class='question'>
+            First Name* <br>
+            <input id='general' type='text' placeholder='Enter your First name' required> 
+            </div>
+
+            <div class='question'>
+            Last Name* <br>
+            <input id='general' type='text' placeholder='Enter your Last name' required> 
+            </div>
+
+            <div class='question'>
+            Email* <br>
+            <input id='general' type='text' placeholder='Enter your Email' required> 
+            </div>
+
+            <div class='question'>
+            Age <br>
+            <input id='general' type='text' placeholder='Enter your Age'> 
+            </div>
+
+            <div class='question'>
+            How did you hear about us? <br>
+            <input type='checkbox' class='checkBox' id="One" name="One" value="check">
+            <label id='tag' for="One"> Employer </label><br>
+
+            <input type='checkbox' class='checkBox' id="Two" name="Two" value="check">
+            <label id='tag' for="Two"> Job Boards </label><br>
+            
+            <input type='checkbox' class='checkBox' id="Three" name="Three" value="check">
+            <label id='tag' for="Three"> Family Member </label><br>
+            </div>
+
+            <div class='question'>
+            Any comments or questions?
+            <textarea id="textArea" name="message" rows="5" cols="30"> </textarea>
+            <br> <br>
+            </div>
+
+            <div id='submit'>
+            <input id='general' type='submit'>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+<script src='form.js'> </script>
+
+</html>

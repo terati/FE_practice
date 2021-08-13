@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    height: 100%;
+    align-items: center;
+    font-family: 'Poppins', Arial;
+    /* background-image: url('./library.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(180deg,rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.7)), url('./library.jpg');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#head1 {
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px
+}
+
+#quote {
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 5px
+}
+
+#formContainer {
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    /* height: 400px; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#form {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', Arial;
+    padding: 10px 20px;
+}
+
+input#general {
+    font-family: inherit;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    /* width: calc(100% - 0px);
+    margin: 10px 20px; */
+}
+
+/* Get rid of the border of the selected */
+input:focus {
+    outline-width: 0;
+}
+
+.question {
+    padding: 10px 0px;
+}
+
+input[type=submit] {
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(40, 148, 40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(28, 99, 28);
+}
+
+.checkBox {
+    font-family: inherit;
+    margin-left: 20px;
+}
+
+#tag {
+    font-size: 15px;
+}
+
+#textArea {
+    width: 100%;
+    font-size: 13px;
+    font-family: "Poppins", Arial;
+}
+
+
+/* Get rid of selected comment box */
+textarea:focus {
+    outline-width: 0;
+}
